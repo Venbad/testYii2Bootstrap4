@@ -1,0 +1,250 @@
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .jumbotron {
+  	padding-left: 20px;
+  }
+  .header-right {
+	margin-right: 20px !important;
+}
+  .header-desktop {
+  	display: none;
+  }
+  .page-header h1 {
+  	margin-bottom: 70px;
+  }
+}
+
+@font-face {
+        font-family:  AGLettericaCondensed;
+        src: url('../fonts/Cuprum-Bold.ttf'); 
+}
+
+@font-face {
+        font-family:  AVATCUL;
+        src: url('../fonts/AVA_TCUL.TTF'); 
+        }
+
+h1 {
+	margin-bottom: 0px;
+	font-size: 3.9rem;
+	line-height: 60px;
+}
+
+h2 {
+	font-size: 3.15rem;
+	margin-bottom: 25px;
+}
+
+h3 {
+	color: #7c7c7c;
+}
+
+h5 {
+
+	font-size: 1.40rem;
+	color: #7c7c7c;
+}
+ 
+body {
+	font-family: 'AGLettericaCondensed';
+}
+    
+.jumbotron {
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;  
+   height: 700px;
+   padding-top: 30px;
+	}
+
+.page-header {
+	padding-top: 80px;
+	color: #Ff6521;	
+}
+
+.first-row {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.header-right {
+	float: right;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+.header-left {
+	margin-left: 30px;
+	float: left;
+}
+
+.btn-success {
+	background-color: #5CBA04;
+	color: #ffffff;
+	font-size: 2.2rem;
+	margin-top: 40px;
+	padding: 15px 45px 15px 45px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+}
+
+.btn-outline-success {
+	padding: 4px 42px 4px 42px;
+	color: #7c7c7c;
+	border-color: #5CBA04;
+	border-width: 2px;
+	border-radius: 0px;
+}
+
+.content-title {
+	text-align: center;
+	color: #Ff6521;	
+	padding-bottom: 60px;
+}
+
+.row {
+	margin-bottom: 40px;
+}
+
+.custom-card {
+	border-radius: 15px;
+	background-color: #5CBA04;
+	width: 11rem;
+	height: 12rem;
+	display: block;
+}
+
+.custom-card:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+    text-decoration: none;
+}
+
+.custom-card a:hover {
+    text-decoration: none;
+}
+
+.card-title {
+	color: #ffffff;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 1.2;
+	margin: 0px 12px 0px 12px ;
+}
+
+.card-title-2 {
+	color: #ffffff;
+	font-size: 1.1rem;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.card-img-top {
+	padding: 15px;
+	height: 130px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.custom-card-2 {
+	height: 16.25rem;
+	width: 26rem;
+	background-image: url("../img/2.png"); 	
+	background-repeat: no-repeat;	
+	background-position-x: right;
+	border: none;
+}
+
+.custom-card-2 .card-title {
+	color: #7c7c7c; 
+	position: absolute;
+	top: 15px;
+    left: 170px;
+}
+
+.custom-card-2 .card-text {
+	color: #7c7c7c; 
+	position: absolute;
+	top: 80px;
+    left: 175px;
+    font-size: 0.8rem;  
+    line-height: 1.2;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.custom-card-2 .btn-primary {
+	background-color: #Ff6521;
+	border: none;
+	position: absolute;
+	top: 195px;
+    left: 200px;
+}
+
+.custom-card-2 .btn-primary:hover {
+	background-color: #db4200;
+}
+
+.card-img-left {
+	height: 95%;
+	width: 40%;
+}
+
+.custom-btn {
+	font-size: 2.54rem;
+	padding: 11px 45px 11px 45px;
+}
+
+.custom-card-3 {
+	width: 12rem;
+	height: 12rem;
+	border: none;
+}
+
+.card-img {
+	height: 170px;
+	width: auto;
+}
+
+.footer {
+	background-color: #5CBA04;
+	font-family: 'AVATCUL';
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	color: #ffffff;
+	padding: 40px 60px 40px 60px;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-left span {
+	font-size: 1.2rem;
+}
+
+ .footer-row {
+ 	margin-bottom: 7px;
+ }
+
+.footer-right {
+	float: right;
+}
+
+.social-buttons {
+	margin-top: 30px;
+	margin-left: 40px;
+}
